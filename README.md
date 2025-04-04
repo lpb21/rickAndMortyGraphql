@@ -55,7 +55,7 @@ MSSQL_DB_DIALECT=mssql
 ```
 ### Crear la Base de Datos en MsSQL
 ```sh
-CREATE DATABASE rickandmorty;
+CREATE DATABASE RickAndMorty;
 
 ```
 
