@@ -86,7 +86,11 @@ Puedes acceder a la UI de GraphQL en esta ruta para hacer consultas interactivas
   characters(species: "Human", status: "Alive") {
     id
     name
+    status
     species
+    type
+    gender
+    origin
   }
 }
 ```
