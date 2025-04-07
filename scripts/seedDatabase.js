@@ -10,7 +10,7 @@ const seedDatabase = async () => {
     const count = await Character.count();
     //console.log(10,count)
 
-    if (count > 15) {
+    if (count >= 15) {
       console.log("⚠️ The database already has data, no need to insert data.");
       return;
     }
